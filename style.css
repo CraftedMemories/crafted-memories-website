@@ -292,11 +292,11 @@ footer p{
 @media (max-width: 600px) {
   .held {
     min-height: auto;
-    padding: 55px 7% 0;
+    padding-bottom: 70px;
   }
 
-  .held .sfeerfoto {
-    transform: translateY(-70px);
-    margin-bottom: -70px;
+  .sfeerfoto {
+    transform: none;
+    margin-bottom: 0;
   }
 }
