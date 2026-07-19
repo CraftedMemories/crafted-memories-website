@@ -289,11 +289,8 @@ footer p{
   border-radius: 24px;
 }
 @media (max-width: 600px) {
-  .held {
-    padding-bottom: 70px;
-  }
-
-  .sfeerfoto {
-    margin-bottom: 0;
+  .held img {
+    transform: translateY(-70px);
+    margin-bottom: -70px;
   }
 }
