@@ -253,3 +253,26 @@ footer p{
     font-size:23px;
   }
 }
+.socials{
+  text-align:center;
+  background:var(--cream);
+}
+
+.social-buttons{
+  display:flex;
+  justify-content:center;
+  gap:18px;
+  margin-top:25px;
+}
+
+.social-buttons a{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:65px;
+  height:65px;
+  border:2px solid var(--brown);
+  border-radius:50%;
+  color:var(--brown);
+  text-decoration:none;
+}
