@@ -276,3 +276,7 @@ footer p{
   color:var(--brown);
   text-decoration:none;
 }
+.social-buttons svg{
+  width:28px;
+  height:28px;
+}
