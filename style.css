@@ -288,8 +288,9 @@ footer p{
   margin: 40px auto 0;
   border-radius: 24px;
 }
+
 @media (max-width: 600px) {
-  .held img {
+  .sfeerfoto {
     transform: translateY(-70px);
     margin-bottom: -70px;
   }
