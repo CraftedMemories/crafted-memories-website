@@ -289,14 +289,69 @@ footer p{
   border-radius: 24px;
 }
 
-@media (max-width: 600px) {
-  .held {
-    min-height: auto;
-    padding: 55px 7% 70px;
+/* FOTOboek */
+
+.fotoboek-pagina {
+  background: var(--room);
+  min-height: 100vh;
+}
+
+.fotoboek-intro {
+  text-align: center;
+  padding: 70px 7% 45px;
+}
+
+.fotoboek-intro h1 {
+  margin: 10px 0 20px;
+}
+
+.fotoboek-intro p:last-child {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.fotoboek-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  padding: 20px 7% 80px;
+}
+
+.fotoboek-item {
+  text-align: center;
+}
+
+.fotoboek-item img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  display: block;
+  border-radius: 24px;
+}
+
+.fotoboek-item h2 {
+  font-size: 28px;
+  margin: 18px 0 5px;
+}
+
+.fotoboek-prijs {
+  margin: 0;
+}
+
+.fotoboek-status {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 700px) {
+  .fotoboek-intro {
+    padding: 55px 7% 35px;
   }
 
-  .held .sfeerfoto {
-    transform: translateY(-70px);
-    margin-bottom: -70px;
+  .fotoboek-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
   }
 }
