@@ -407,3 +407,16 @@ header img {
   height: auto;
   max-width: 100%;
 }
+.fotoboek-pagina header {
+  position: static !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 20px 5% !important;
+}
+
+.fotoboek-pagina header img {
+  width: 140px !important;
+  height: auto !important;
+  max-height: 140px !important;
+  object-fit: contain !important;
+}
