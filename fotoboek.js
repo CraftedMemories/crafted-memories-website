@@ -316,6 +316,22 @@ arrangements.forEach((arrangement) => {
   `;
 } else {
   kaart.innerHTML = `
+    <a href="vaas.html?naam=${encodeURIComponent(arrangement.name)}">
+      <img src="${arrangement.image}" alt="${arrangement.name}">
+    </a>
+    <h2>${arrangement.name}</h2>
+    <p>${arrangement.price}</p>
+  `;
+}
+  kaart.innerHTML = `
+    <a href="roze-engeldroom.html">
+      <img src="${arrangement.image}" alt="${arrangement.name}">
+    </a>
+    <h2>${arrangement.name}</h2>
+    <p>${arrangement.price}</p>
+  `;
+} else {
+  kaart.innerHTML = `
     <img src="${arrangement.image}" alt="${arrangement.name}">
     <h2>${arrangement.name}</h2>
     <p>${arrangement.price}</p>
