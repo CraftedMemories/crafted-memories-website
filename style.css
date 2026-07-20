@@ -402,3 +402,8 @@ footer p{
     font-size: 15px;
   }
 }
+header img {
+  width: 180px;
+  height: auto;
+  max-width: 100%;
+}
