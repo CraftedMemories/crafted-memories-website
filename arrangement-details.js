@@ -337,7 +337,41 @@ const arrangementDetails = {
     "IMG_9877.jpeg",
     "IMG_9878.jpeg",
     "IMG_9879.jpeg"
-  ]
+  ],
+  "Summer Bloom": [
+  "IMG_6233.jpeg",
+  "IMG_6234.jpeg",
+  "IMG_6235.jpeg",
+  "IMG_6236.jpeg"
+],
+
+"Pink Butterfly": [
+  "IMG_8292.jpeg",
+  "IMG_8293.jpeg",
+  "IMG_8294.jpeg",
+  "IMG_8295.jpeg"
+],
+
+"Wild Bloom": [
+  "IMG_6221.jpeg",
+  "IMG_6222.jpeg",
+  "IMG_6223.jpeg",
+  "IMG_6224.jpeg"
+],
+
+"Lavender Dream": [
+  "IMG_8288.jpeg",
+  "IMG_8289.jpeg",
+  "IMG_8290.jpeg",
+  "IMG_8291.jpeg"
+],
+
+"Blue Elegance": [
+  "IMG_6228.jpeg",
+  "IMG_6229.jpeg",
+  "IMG_6230.jpeg",
+  "IMG_6231.jpeg"
+]
 };
 const params = new URLSearchParams(window.location.search);
 const vaasNaam = params.get("naam");
