@@ -355,3 +355,50 @@ footer p{
     gap: 50px;
   }
 }
+/* Fotoboek */
+
+.fotoboek-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 6%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px 25px;
+}
+
+.fotoboek-item {
+  text-align: center;
+}
+
+.fotoboek-item img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  display: block;
+}
+
+.fotoboek-item h2 {
+  margin: 14px 0 5px;
+  font-size: 20px;
+}
+
+.fotoboek-item p {
+  margin: 0;
+  font-size: 17px;
+}
+
+@media (max-width: 700px) {
+  .fotoboek-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 12px;
+    padding: 30px 4%;
+  }
+
+  .fotoboek-item h2 {
+    font-size: 16px;
+  }
+
+  .fotoboek-item p {
+    font-size: 15px;
+  }
+}
