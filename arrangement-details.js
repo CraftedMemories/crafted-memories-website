@@ -339,3 +339,23 @@ const arrangementDetails = {
     "IMG_9879.jpeg"
   ]
 };
+const params = new URLSearchParams(window.location.search);
+const vaasNaam = params.get("naam");
+
+const arrangement = arrangements.find(item => item.name === vaasNaam);
+const fotos = arrangementDetails[vaasNaam];
+
+if (arrangement && fotos) {
+  document.getElementById("vaas-naam").textContent = arrangement.name;
+  document.getElementById("vaas-prijs").textContent = arrangement.price;
+  document.title = `${arrangement.name} | Crafted Memories`;
+
+  const galerij = document.getElementById("vaas-galerij");
+
+  fotos.forEach((foto) => {
+    const afbeelding = document.createElement("img");
+    afbeelding.src = foto;
+    afbeelding.alt = arrangement.name;
+    galerij.appendChild(afbeelding);
+  });
+}
