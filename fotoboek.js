@@ -300,3 +300,17 @@ const arrangements = [
     price: "€25,00"
   }
 ];
+const fotoboekGrid = document.getElementById("fotoboek-grid");
+
+arrangements.forEach((arrangement) => {
+  const kaart = document.createElement("div");
+  kaart.className = "fotoboek-item";
+
+  kaart.innerHTML = `
+    <img src="${arrangement.image}" alt="${arrangement.name}">
+    <h2>${arrangement.name}</h2>
+    <p>${arrangement.price}</p>
+  `;
+
+  fotoboekGrid.appendChild(kaart);
+});
