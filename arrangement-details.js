@@ -371,6 +371,75 @@ const arrangementDetails = {
   "IMG_6229.jpeg",
   "IMG_6230.jpeg",
   "IMG_6231.jpeg"
+],
+  "Winter Magic": [
+  "IMG_0202.jpeg",
+  "IMG_0203.jpeg",
+  "IMG_0204.jpeg",
+  "IMG_0205.jpeg"
+],
+
+"Gingerbread Christmas": [
+  "IMG_0197.jpeg",
+  "IMG_0198.jpeg",
+  "IMG_0199.jpeg",
+  "IMG_0200.jpeg"
+],
+
+"Grinchmas": [
+  "IMG_0172.jpeg",
+  "IMG_0173.jpeg",
+  "IMG_0174.jpeg",
+  "IMG_0175.jpeg"
+],
+
+"Winter Blossom": [
+  "IMG_0207.jpeg",
+  "IMG_0208.jpeg",
+  "IMG_0209.jpeg",
+  "IMG_0210.jpeg"
+],
+
+"Santa Sparkle Express": [
+  "IMG_0212.jpeg",
+  "IMG_0213.jpeg",
+  "IMG_0214.jpeg",
+  "IMG_0215.jpeg"
+],
+
+"Pink Winter Wishes": [
+  "IMG_0167.jpeg",
+  "IMG_0168.jpeg",
+  "IMG_0169.jpeg",
+  "IMG_0170.jpeg"
+],
+
+"Christmas Forest Friends": [
+  "IMG_0182.jpeg",
+  "IMG_0183.jpeg",
+  "IMG_0184.jpeg",
+  "IMG_0185.jpeg"
+],
+
+"Pink Christmas Butterfly": [
+  "IMG_0162.jpeg",
+  "IMG_0163.jpeg",
+  "IMG_0164.jpeg",
+  "IMG_0165.jpeg"
+],
+
+"Christmas Reindeer & Penguin": [
+  "IMG_0192.jpeg",
+  "IMG_0193.jpeg",
+  "IMG_0194.jpeg",
+  "IMG_0195.jpeg"
+],
+
+"Merry Christmas Santa": [
+  "IMG_0222.jpeg",
+  "IMG_0223.jpeg",
+  "IMG_0224.jpeg",
+  "IMG_0225.jpeg"
 ]
 };
 const params = new URLSearchParams(window.location.search);
