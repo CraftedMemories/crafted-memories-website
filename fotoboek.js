@@ -17,6 +17,24 @@ const arrangements = [
     status: "available",
     price: "€40,00"
   },
+      {
+    name: "Pink Peacock",
+    image: "FA12FDCD-B7FC-48DC-8ADE-177BA1FF5298.jpeg",
+    status: "available",
+    price: "€45,00"
+  },
+  {
+    name: "Blue Peacock",
+    image: "EF7F3280-6847-4DA5-9C60-107EE7EDFE64.jpeg",
+    status: "available",
+    price: "€40,00"
+  },
+  {
+    name: "Mint Peacock",
+    image: "662C84C8-D5E4-4F25-B096-53558DE90D50.jpeg",
+    status: "available",
+    price: "€40,00"
+  },
   {
     name: "Roze Engeldroom",
     image: "57F40836-972B-483B-82A8-AAA1FFB4AE77.jpeg",
@@ -280,24 +298,6 @@ const arrangements = [
     image: "4ED008FE-8D99-4BB8-A022-7192D95593D0.jpeg",
     status: "available",
     price: "€15,00"
-  },
-  {
-    name: "Pink Peacock",
-    image: "FA12FDCD-B7FC-48DC-8ADE-177BA1FF5298.jpeg",
-    status: "available",
-    price: "€45,00"
-  },
-  {
-    name: "Blue Peacock",
-    image: "EF7F3280-6847-4DA5-9C60-107EE7EDFE64.jpeg",
-    status: "available",
-    price: "€40,00"
-  },
-  {
-    name: "Mint Peacock",
-    image: "662C84C8-D5E4-4F25-B096-53558DE90D50.jpeg",
-    status: "available",
-    price: "€40,00"
   },
   {
   name: "Winter Magic",
