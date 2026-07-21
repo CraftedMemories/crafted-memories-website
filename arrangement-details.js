@@ -440,6 +440,68 @@ const arrangementDetails = {
   "IMG_0223.jpeg",
   "IMG_0224.jpeg",
   "IMG_0225.jpeg"
+],
+  "Tropical Blue": [
+  "IMG_6135.jpeg",
+  "IMG_6136.jpeg",
+  "IMG_6137.jpeg",
+  "IMG_6138.jpeg"
+],
+
+"Honey Bee": [
+  "IMG_6151.jpeg",
+  "IMG_6152.jpeg",
+  "IMG_6153.jpeg",
+  "IMG_6154.jpeg"
+],
+
+"Minty Garden": [
+  "IMG_6294.jpeg",
+  "IMG_6295.jpeg",
+  "IMG_6296.jpeg",
+  "IMG_6297.jpeg"
+],
+
+"Golden Magic": [
+  "IMG_6127.jpeg",
+  "IMG_6128.jpeg",
+  "IMG_6129.jpeg",
+  "IMG_6130.jpeg"
+],
+
+"Blue Christmas Magic": [
+  "IMG_0217.jpeg",
+  "IMG_0218.jpeg",
+  "IMG_0219.jpeg",
+  "IMG_0220.jpeg"
+],
+
+"Pink Christmas Mischief": [
+  "IMG_0227.jpeg",
+  "IMG_0228.jpeg",
+  "IMG_0229.jpeg",
+  "IMG_0230.jpeg"
+],
+
+"Christmas Together": [
+  "IMG_0187.jpeg",
+  "IMG_0188.jpeg",
+  "IMG_0189.jpeg",
+  "IMG_0190.jpeg"
+],
+
+"Winter Sisters": [
+  "IMG_0177.jpeg",
+  "IMG_0178.jpeg",
+  "IMG_0179.jpeg",
+  "IMG_0180.jpeg"
+],
+
+"Love on Tour": [
+  "IMG_7647.jpeg",
+  "IMG_7649.jpeg",
+  "IMG_7650.jpeg",
+  "IMG_7651.jpeg"
 ]
 };
 const params = new URLSearchParams(window.location.search);
