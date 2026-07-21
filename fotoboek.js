@@ -35,6 +35,36 @@ const arrangements = [
     status: "available",
     price: "€40,00"
   },
+     {
+    name: "Pink Leopard",
+    image: "DC096568-50DB-41FB-8ECD-50F2D067AAD6.jpeg",
+    status: "available",
+    price: "€17,50"
+  },
+  {
+    name: "Golden Giraffe",
+    image: "29B1C3DC-DB31-483E-B02D-5E54059016B4.jpeg",
+    status: "available",
+    price: "€15,00"
+  },
+  {
+    name: "Blue Cow",
+    image: "036F5C42-7427-4302-9F9C-46C3FCF0E206.jpeg",
+    status: "available",
+    price: "€15,00"
+  },
+  {
+    name: "Golden Tiger",
+    image: "848FF973-BFE2-4382-BDB3-947B43DB2B66.jpeg",
+    status: "available",
+    price: "€17,50"
+  },
+  {
+    name: "Black Panther",
+    image: "4ED008FE-8D99-4BB8-A022-7192D95593D0.jpeg",
+    status: "available",
+    price: "€15,00"
+  },
   {
     name: "Roze Engeldroom",
     image: "57F40836-972B-483B-82A8-AAA1FFB4AE77.jpeg",
@@ -268,36 +298,6 @@ const arrangements = [
     image: "A4D9BF8F-1CA8-4F8B-8D11-59C34707BBAC.jpeg",
     status: "available",
     price: "€20,00"
-  },
-  {
-    name: "Pink Leopard",
-    image: "DC096568-50DB-41FB-8ECD-50F2D067AAD6.jpeg",
-    status: "available",
-    price: "€17,50"
-  },
-  {
-    name: "Golden Giraffe",
-    image: "29B1C3DC-DB31-483E-B02D-5E54059016B4.jpeg",
-    status: "available",
-    price: "€15,00"
-  },
-  {
-    name: "Blue Cow",
-    image: "036F5C42-7427-4302-9F9C-46C3FCF0E206.jpeg",
-    status: "available",
-    price: "€15,00"
-  },
-  {
-    name: "Golden Tiger",
-    image: "848FF973-BFE2-4382-BDB3-947B43DB2B66.jpeg",
-    status: "available",
-    price: "€17,50"
-  },
-  {
-    name: "Black Panther",
-    image: "4ED008FE-8D99-4BB8-A022-7192D95593D0.jpeg",
-    status: "available",
-    price: "€15,00"
   },
   {
   name: "Winter Magic",
