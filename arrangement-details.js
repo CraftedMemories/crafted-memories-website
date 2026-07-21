@@ -380,6 +380,19 @@ const arrangement = arrangements.find(item => item.name === vaasNaam);
 const fotos = arrangementDetails[vaasNaam];
 
 if (fotos) {
+  const homepageVazen = [
+  "Summer Bloom",
+  "Pink Butterfly",
+  "Wild Bloom",
+  "Lavender Dream",
+  "Blue Elegance"
+];
+
+if (homepageVazen.includes(vaasNaam)) {
+  const terugLink = document.getElementById("terug-link");
+  terugLink.href = "index.html";
+  terugLink.textContent = "← Terug naar de homepage";
+}
   document.getElementById("vaas-naam").textContent = vaasNaam;
   document.getElementById("vaas-prijs").textContent = arrangement ? arrangement.price : "";
   document.title = `${vaasNaam} | Crafted Memories`;
