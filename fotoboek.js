@@ -299,7 +299,256 @@ const arrangements = [
     status: "available",
     price: "€25,00"
   },
-  
+  {
+  name: "Bohemian Bloom",
+  image: "83E65058-13F1-4FFC-A1A5-9F2539CB7F43.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Andre Hazes",
+  image: "CF307AEF-E558-4D1A-8627-5620C2901444.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Betty Boop",
+  image: "A2A41468-14C0-4466-A314-8E4B9229496D.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Spring Meadow",
+  image: "8114101A-857D-41EC-8342-EA83DB1ADB43.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Golden Boss",
+  image: "591D21E0-1291-4CC4-AF01-61AACE883B3F.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Golden Butterfly Garden",
+  image: "29088E15-7E1F-47D1-9FCF-2BB5AF65E55B.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Buddha Blossom",
+  image: "60A96B54-359F-4A5D-AC12-E4C7BB35F4AD.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Wild Cub Blossom",
+  image: "92848336-88AA-417F-B8C0-3E16C05FAFD0.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Happy Friends",
+  image: "0D17E4DB-FA7A-4909-A952-78E06C297F8D.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Christmas Elegance",
+  image: "B98E31A1-D73C-4F20-905D-39A4D51E48A8.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Midnight Amethyst",
+  image: "CB2B1DBC-C400-47E8-97F3-9D4BCC714A76.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Autumn Glow",
+  image: "21EF61DD-1FE0-438F-863D-B474E55B6A26.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Autumn Friends",
+  image: "B53ED7BE-7A36-4560-89E8-BC32D38F3676.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Buddha Serenity",
+  image: "344A416B-E8E6-453A-8816-99B3118F75CB.jpeg",
+  status: "sold-out"
+},
+{
+  name: "System of a down",
+  image: "281F24FC-984F-4AF9-BEBC-5D1489805AB6.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Safari Serenity",
+  image: "9671E222-1043-4E27-8D77-F4FE6220F22D.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Tiger Blossom",
+  image: "5DC6D0F8-ED09-4069-BE6D-3F17B89F25C9.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Royal Bloom",
+  image: "Royal blom.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Pink Boss",
+  image: "1CA6DA21-8A41-44EE-B942-978C1B8B87C8.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Peach Blossom",
+  image: "08794F8F-41B4-47C1-BD0F-2EDD130BA97B.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Baddie Bloom",
+  image: "CD8CAEE4-0A88-4606-B41C-7F70D9B8E87B.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Sakura Dream",
+  image: "9FDC8FC3-6FAE-461D-A9DC-4A952768FE2D.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Safari Sunshine",
+  image: "CDAB04F2-5CD5-415C-9C03-6B504A0FC0E8.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Sweet Kiss",
+  image: "EA35D7F2-C79B-4510-8035-DC969A386A6F.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Steampunk Garden",
+  image: "A66F9AF2-4DB1-49A5-B26E-6275E1AE942B.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Orchid Fantasy",
+  image: "254DE367-D943-4F6D-8C5A-D249A07E79AF.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Buddha Butterfly Bliss",
+  image: "A9670A4F-A59C-4C07-818A-151EADBB1F40.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Pastel Hydrangea Dream",
+  image: "0AFC2D52-2A83-4966-A284-044CF300C075.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Golden Boho Muse",
+  image: "E48A4483-EA44-4FB7-BD81-184FFD39BE7A.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Bunny Blossom",
+  image: "3FE9EED8-A2A8-4232-880F-21C1660F8332.jpeg",
+  status: "sold-out"
+},
+{
+  name: "ADO - onze trots",
+  image: "276E7A3E-827C-478C-92FA-A1EAD0221406.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Spring Bunny Garden",
+  image: "61B8A7D0-D899-4CC0-8455-41810C9C3BAE.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Sunset Rider",
+  image: "8138D381-B8C8-4078-A7EB-12696E7EEA2C.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Enchanted Forest",
+  image: "D4FF9A12-EF43-4731-A477-D8C78746EE87.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Guitar Romance",
+  image: "5C654EED-8BD8-4A59-A4C8-8C359C56CAF3.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Easter Bunny",
+  image: "04F50E46-E7B5-4D7B-8D07-3FFEF8D304C5.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Easter Truck Bunny",
+  image: "AE2E3352-E396-4281-B6B8-AE9FD1BC6E4E.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Gramps Morgan",
+  image: "278E7E8E-BB40-4950-A5B6-4D31384AF3F7.jpeg",
+  status: "sold-out"
+},
+{
+  name: "UB40",
+  image: "2911B43E-1510-4987-B78A-06A213E4C996.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Bob Marley",
+  image: "88E6D3C8-DB87-453A-90C9-50120182B34C.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Neon Owl",
+  image: "6ED4B700-88C1-4BC4-89A3-B079BF9F11D0.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Beatles Abbey Road",
+  image: "DFE7C088-A237-4C98-99BC-C540738210A0.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Grappige zebra",
+  image: "8248FBF1-6237-47D3-9EC8-2B40C029766F.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Kleurrijke pauw",
+  image: "3D472D97-0866-4403-98E3-3BDCEA39314E.jpeg",
+  status: "sold-out"
+},
+{
+  name: "ADO Den Haag",
+  image: "D450169A-BEB9-4834-A5CA-FE6380DABC86.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Elvis presley",
+  image: "0C311DF8-5453-46C5-9B6B-8F7A255EAC0F.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Majestueuze leeuw",
+  image: "6A389EF0-BA6C-4E80-B213-FD2131D46919.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Gangster glamour",
+  image: "7921D363-C3F1-489A-8ADD-84253BDCDD85.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Elegante zebra",
+  image: "B476C5F4-D6BE-40CB-B7A1-534ED949C72A.jpeg",
+  status: "sold-out"
+},
+{
+  name: "Elegante krokodil",
+  image: "A5A6B12B-909E-44DC-92F0-8407A3A0F2A1.jpeg",
+  status: "sold-out"
+}
 ];
 const fotoboekGrid = document.getElementById("fotoboek-grid");
 
