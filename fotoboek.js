@@ -564,13 +564,19 @@ arrangements.forEach((arrangement) => {
     <h2>${arrangement.name}</h2>
     <p>${arrangement.price}</p>
   `;
+} else if (arrangement.status === "sold-out") {
+  kaart.innerHTML = `
+    <img src="${arrangement.image}" alt="${arrangement.name}">
+    <h2>${arrangement.name}</h2>
+    <p>SOLD OUT</p>
+  `;
 } else {
   kaart.innerHTML = `
     <a href="vaas.html?naam=${encodeURIComponent(arrangement.name)}">
       <img src="${arrangement.image}" alt="${arrangement.name}">
     </a>
     <h2>${arrangement.name}</h2>
-    <p>${arrangement.price}</p>
+    <p>${arrangement.status === "sold-out" ? "SOLD OUT" : arrangement.price}</p>
   `;
 }
   
