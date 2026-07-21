@@ -293,6 +293,12 @@ const arrangements = [
     status: "available",
     price: "€25,00"
   },
+   {
+    name: "Mediterranean Joy",
+    image: "710E94DE-8F59-44D9-BA0C-98CC2E577D07.jpeg",
+    status: "available",
+    price: "€25,00"
+  },
   {
   name: "Winter Magic",
   image: "58DCDA64-042F-4ABE-B4F7-5D0205488E88.jpeg",
@@ -343,12 +349,6 @@ const arrangements = [
   image: "39FC157E-DBBE-42F5-BFDD-981FDFE73C64.jpeg",
   price: "€22,50"
 },
-  {
-    name: "Mediterranean Joy",
-    image: "710E94DE-8F59-44D9-BA0C-98CC2E577D07.jpeg",
-    status: "available",
-    price: "€25,00"
-  },
   {
   name: "Bohemian Bloom",
   image: "83E65058-13F1-4FFC-A1A5-9F2539CB7F43.jpeg",
