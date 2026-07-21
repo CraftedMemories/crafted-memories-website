@@ -298,7 +298,8 @@ const arrangements = [
     image: "710E94DE-8F59-44D9-BA0C-98CC2E577D07.jpeg",
     status: "available",
     price: "€25,00"
-  }
+  },
+  
 ];
 const fotoboekGrid = document.getElementById("fotoboek-grid");
 
