@@ -552,27 +552,27 @@ const arrangements = [
   {
   name: "Butterfly Dreams",
   image: "90152F7B-52F2-4CD5-BC50-2641C3888F91.jpeg",
-  status: "soldout"
+  status: "sold-out"
 },
 {
   name: "Tropical Paradise",
   image: "9FA66EC2-C61C-44E9-97C7-033A707742AD.jpeg",
-  status: "soldout"
+  status: "sold-out"
 },
 {
   name: "Billie Eilish",
   image: "6A128979-BD3B-43CF-99D5-27560303B61A.jpeg",
-  status: "soldout"
+  status: "sold-out"
 },
 {
   name: "Christmas Elegance",
   image: "B98E31A1-D73C-4F20-905D-39A4D51E48A8.jpeg",
-  status: "soldout"
+  status: "sold-out"
 },
 {
   name: "Winter Wonderland",
   image: "EAC23549-0D9B-4896-9E55-B3A9CA53A1FB.png",
-  status: "soldout"
+  status: "sold-out"
 }
 ];
 const fotoboekGrid = document.getElementById("fotoboek-grid");
