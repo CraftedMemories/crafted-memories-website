@@ -11,17 +11,17 @@ const arrangements = [
     status: "available",
     price: "€25,00"
   },
+     {
+    name: "Little Love",
+    image: "D4677581-2B73-4B9B-A0F0-60625F8064BF.jpeg",
+    status: "available",
+    price: "€40,00"
+  },
   {
     name: "Roze Engeldroom",
     image: "57F40836-972B-483B-82A8-AAA1FFB4AE77.jpeg",
     status: "available",
     price: "€17,50"
-  },
-  {
-    name: "Little Love",
-    image: "D4677581-2B73-4B9B-A0F0-60625F8064BF.jpeg",
-    status: "available",
-    price: "€40,00"
   },
   {
     name: "Golden Spirit",
