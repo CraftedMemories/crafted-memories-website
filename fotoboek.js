@@ -349,6 +349,52 @@ const arrangements = [
   image: "39FC157E-DBBE-42F5-BFDD-981FDFE73C64.jpeg",
   price: "€22,50"
 },
+    {
+  name: "Love on Tour",
+  image: "85C51A86-FC00-4763-B7ED-3511754EF2CD.png",
+  price: "€40,00"
+},
+{
+  name: "Tropical Blue",
+  image: "85C51A86-FC00-4763-B7ED-3511754EF2CD.png",
+  price: "€17,50"
+},
+{
+  name: "Honey Bee",
+  image: "85C51A86-FC00-4763-B7ED-3511754EF2CD.png",
+  price: "€15,00"
+},
+{
+  name: "Minty Garden",
+  image: "85C51A86-FC00-4763-B7ED-3511754EF2CD.png",
+  price: "€15,00"
+},
+{
+  name: "Golden Magic",
+  image: "85C51A86-FC00-4763-B7ED-3511754EF2CD.png",
+  price: "€22,50"
+},
+{
+  name: "Blue Christmas Magic",
+  image: "85C51A86-FC00-4763-B7ED-3511754EF2CD.png",
+  price: "€20,00"
+},
+{
+  name: "Pink Christmas Mischief",
+  image: "85C51A86-FC00-4763-B7ED-3511754EF2CD.png",
+  price: "€25,00"
+},
+{
+  name: "Christmas Together",
+  image: "85C51A86-FC00-4763-B7ED-3511754EF2CD.png",
+  price: "€15,00"
+},
+{
+  name: "Winter Sisters",
+  image: "85C51A86-FC00-4763-B7ED-3511754EF2CD.png",
+  price: "€25,00"
+},
+
   {
   name: "Bohemian Bloom",
   image: "83E65058-13F1-4FFC-A1A5-9F2539CB7F43.jpeg",
