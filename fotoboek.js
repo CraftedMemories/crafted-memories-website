@@ -548,6 +548,31 @@ const arrangements = [
   name: "Elegante krokodil",
   image: "A5A6B12B-909E-44DC-92F0-8407A3A0F2A1.jpeg",
   status: "sold-out"
+},
+  {
+  name: "Butterfly Dreams",
+  image: "90152F7B-52F2-4CD5-BC50-2641C3888F91.jpeg",
+  status: "soldout"
+},
+{
+  name: "Tropical Paradise",
+  image: "9FA66EC2-C61C-44E9-97C7-033A707742AD.jpeg",
+  status: "soldout"
+},
+{
+  name: "Billie Eilish",
+  image: "6A128979-BD3B-43CF-99D5-27560303B61A.jpeg",
+  status: "soldout"
+},
+{
+  name: "Christmas Elegance",
+  image: "B98E31A1-D73C-4F20-905D-39A4D51E48A8.jpeg",
+  status: "soldout"
+},
+{
+  name: "Winter Wonderland",
+  image: "EAC23549-0D9B-4896-9E55-B3A9CA53A1FB.png",
+  status: "soldout"
 }
 ];
 const fotoboekGrid = document.getElementById("fotoboek-grid");
