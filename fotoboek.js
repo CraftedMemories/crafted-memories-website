@@ -1,4 +1,16 @@
 const arrangements = [
+    {
+    name: "Mediterranean Summer",
+    image: "4442E87A-0247-4E8A-8902-3BAC61C6C6DF.jpeg",
+    status: "available",
+    price: "€25,00"
+  },
+   {
+    name: "Mediterranean Joy",
+    image: "710E94DE-8F59-44D9-BA0C-98CC2E577D07.jpeg",
+    status: "available",
+    price: "€25,00"
+  },
   {
     name: "Roze Engeldroom",
     image: "57F40836-972B-483B-82A8-AAA1FFB4AE77.jpeg",
@@ -286,18 +298,6 @@ const arrangements = [
     image: "662C84C8-D5E4-4F25-B096-53558DE90D50.jpeg",
     status: "available",
     price: "€40,00"
-  },
-  {
-    name: "Mediterranean Summer",
-    image: "4442E87A-0247-4E8A-8902-3BAC61C6C6DF.jpeg",
-    status: "available",
-    price: "€25,00"
-  },
-   {
-    name: "Mediterranean Joy",
-    image: "710E94DE-8F59-44D9-BA0C-98CC2E577D07.jpeg",
-    status: "available",
-    price: "€25,00"
   },
   {
   name: "Winter Magic",
