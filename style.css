@@ -495,3 +495,18 @@ header img {
     height: auto;
   }
 }
+.whatsapp-knop {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #7c5c46;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.whatsapp-knop:hover {
+  background-color: #654936;
+}
