@@ -506,7 +506,28 @@ const arrangementDetails = {
 };
 const params = new URLSearchParams(window.location.search);
 const vaasNaam = params.get("naam");
-
+const homepageGegevens = {
+  "Summer Bloom": {
+    price: "€32,50",
+    size: "..."
+  },
+  "Pink Butterfly": {
+    price: "€22,50",
+    size: "..."
+  },
+  "Wild Bloom": {
+    price: "€32,50",
+    size: "..."
+  },
+  "Lavender Dream": {
+    price: "€22,50",
+    size: "..."
+  },
+  "Blue Elegance": {
+    price: "€32,50",
+    size: "..."
+  }
+};
 const arrangement = arrangements.find(item => item.name === vaasNaam);
 const fotos = arrangementDetails[vaasNaam];
 
@@ -525,8 +546,10 @@ if (homepageVazen.includes(vaasNaam)) {
   terugLink.textContent = "← Terug naar de homepage";
 }
   document.getElementById("vaas-naam").textContent = vaasNaam;
-  document.getElementById("vaas-prijs").textContent = arrangement ? arrangement.price : "";
-  document.getElementById("vaas-afmetingen").textContent = arrangement ? arrangement.size : "";
+  const gegevens = arrangement || homepageGegevens[vaasNaam];
+
+document.getElementById("vaas-prijs").textContent = gegevens ? gegevens.price : "";
+document.getElementById("vaas-afmetingen").textContent = gegevens ? gegevens.size : "";
   document.title = `${vaasNaam} | Crafted Memories`;
 
   const galerij = document.getElementById("vaas-galerij");
