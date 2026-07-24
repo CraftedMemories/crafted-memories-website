@@ -3,7 +3,8 @@ const arrangements = [
     name: "Mediterranean Summer",
     image: "4442E87A-0247-4E8A-8902-3BAC61C6C6DF.jpeg",
     status: "available",
-    price: "€30,00"
+    price: "€30,00",
+        size: "23 cm hoog x 20 cm Ø"
   },
    {
     name: "Mediterranean Joy",
