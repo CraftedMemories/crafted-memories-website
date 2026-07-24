@@ -550,6 +550,12 @@ if (homepageVazen.includes(vaasNaam)) {
 
 document.getElementById("vaas-prijs").textContent = gegevens ? gegevens.price : "";
 document.getElementById("vaas-afmetingen").textContent = gegevens ? gegevens.size : "";
+ const telefoonnummer = "31628729748"; // Vervang dit door jouw eigen nummer
+
+const bericht = `Hallo! Ik heb interesse in de vaas "${vaasNaam}". Is deze nog beschikbaar?`;
+
+document.getElementById("whatsapp-knop").href =
+  `https://wa.me/${telefoonnummer}?text=${encodeURIComponent(bericht)}`;
   document.title = `${vaasNaam} | Crafted Memories`;
 
   const galerij = document.getElementById("vaas-galerij");
