@@ -526,6 +526,7 @@ if (homepageVazen.includes(vaasNaam)) {
 }
   document.getElementById("vaas-naam").textContent = vaasNaam;
   document.getElementById("vaas-prijs").textContent = arrangement ? arrangement.price : "";
+  document.getElementById("vaas-afmetingen").textContent = arrangement ? arrangement.size : "";
   document.title = `${vaasNaam} | Crafted Memories`;
 
   const galerij = document.getElementById("vaas-galerij");
