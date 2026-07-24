@@ -281,12 +281,7 @@ const arrangements = [
     status: "available",
     price: "€15,00"
   },
-  {
-    name: "Festive Red",
-    image: "C0FF78B7-1240-458D-87B7-45C7893B95A3.jpeg",
-    status: "available",
-    price: "€12,50"
-  },
+
   {
     name: "Hello Fall",
     image: "33C679C4-E7E1-408C-B704-3903C616CDB2.jpeg",
@@ -440,6 +435,11 @@ const arrangements = [
   image: "0D17E4DB-FA7A-4909-A952-78E06C297F8D.jpeg",
   status: "sold-out"
 },
+    {
+    name: "Festive Red",
+    image: "C0FF78B7-1240-458D-87B7-45C7893B95A3.jpeg",
+    status: "sold-out"
+  },
 {
   name: "Christmas Elegance",
   image: "B98E31A1-D73C-4F20-905D-39A4D51E48A8.jpeg",
