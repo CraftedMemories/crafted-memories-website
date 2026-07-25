@@ -742,36 +742,43 @@ const arrangements = [
   status: "sold-out"
 }
 ];
-const fotoboekGrid = document.getElementById("fotoboek-grid");
+const nieuwGrid = document.getElementById("nieuw-grid");
+const beschikbaarGrid = document.getElementById("beschikbaar-grid");
+const verkochtGrid = document.getElementById("verkocht-grid");
 
 arrangements.forEach((arrangement) => {
   const kaart = document.createElement("div");
   kaart.className = "fotoboek-item";
 
   if (arrangement.name === "Roze Engeldroom") {
-  kaart.innerHTML = `
-    <a href="roze-engeldroom.html">
+    kaart.innerHTML = `
+      <a href="roze-engeldroom.html">
+        <img src="${arrangement.image}" alt="${arrangement.name}">
+      </a>
+      <h2>${arrangement.name}</h2>
+      <p>${arrangement.price}</p>
+    `;
+  } else if (arrangement.status === "sold-out") {
+    kaart.innerHTML = `
       <img src="${arrangement.image}" alt="${arrangement.name}">
-    </a>
-    <h2>${arrangement.name}</h2>
-    <p>${arrangement.price}</p>
-  `;
-} else if (arrangement.status === "sold-out") {
-  kaart.innerHTML = `
-    <img src="${arrangement.image}" alt="${arrangement.name}">
-    <h2>${arrangement.name}</h2>
-    <p>SOLD OUT</p>
-  `;
-} else {
-  kaart.innerHTML = `
-    <a href="vaas.html?naam=${encodeURIComponent(arrangement.name)}">
-      <img src="${arrangement.image}" alt="${arrangement.name}">
-    </a>
-    <h2>${arrangement.name}</h2>
-    <p>${arrangement.status === "sold-out" ? "SOLD OUT" : arrangement.price}</p>
-  `;
-}
-  
+      <h2>${arrangement.name}</h2>
+      <p>SOLD OUT</p>
+    `;
+  } else {
+    kaart.innerHTML = `
+      <a href="vaas.html?naam=${encodeURIComponent(arrangement.name)}">
+        <img src="${arrangement.image}" alt="${arrangement.name}">
+      </a>
+      <h2>${arrangement.name}</h2>
+      <p>${arrangement.price}</p>
+    `;
+  }
 
-  fotoboekGrid.appendChild(kaart);
+  if (arrangement.category === "nieuw") {
+    nieuwGrid.appendChild(kaart);
+  } else if (arrangement.category === "verkocht") {
+    verkochtGrid.appendChild(kaart);
+  } else {
+    beschikbaarGrid.appendChild(kaart);
+  }
 });
