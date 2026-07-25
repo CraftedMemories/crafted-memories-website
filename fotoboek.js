@@ -82,7 +82,8 @@ const arrangements = [
     image: "57F40836-972B-483B-82A8-AAA1FFB4AE77.jpeg",
     status: "available",
     price: "€17,50",
-      size: "21 cm hoog × Ø 16 cm"
+      size: "21 cm hoog × Ø 16 cm",
+      category: "beschikbaar",
   },
   {
     name: "Golden Spirit",
@@ -462,7 +463,8 @@ const arrangements = [
   {
   name: "Bohemian Bloom",
   image: "83E65058-13F1-4FFC-A1A5-9F2539CB7F43.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+      category: "verkocht",
 },
 {
   name: "Andre Hazes",
