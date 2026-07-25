@@ -530,12 +530,6 @@ const arrangements = [
         category: "verkocht",
   },
 {
-  name: "Christmas Elegance",
-  image: "B98E31A1-D73C-4F20-905D-39A4D51E48A8.jpeg",
-  status: "sold-out",
-    category: "verkocht",
-},
-{
   name: "Midnight Amethyst",
   image: "CB2B1DBC-C400-47E8-97F3-9D4BCC714A76.jpeg",
   status: "sold-out",
