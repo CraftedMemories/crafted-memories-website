@@ -12,78 +12,87 @@ const arrangements = [
     image: "710E94DE-8F59-44D9-BA0C-98CC2E577D07.jpeg",
     status: "available",
     price: "€25,00",
-       size: "22 cm hoog × Ø 25 cm"
+       size: "22 cm hoog × Ø 25 cm",
+       category: "nieuw",
   },
      {
     name: "Little Love",
     image: "D4677581-2B73-4B9B-A0F0-60625F8064BF.jpeg",
     status: "available",
     price: "€40,00",
-         size: "30 cm hoog × Ø 23 cm"
+         size: "30 cm hoog × Ø 23 cm",
+         category: "nieuw",
   },
       {
     name: "Pink Peacock",
     image: "FA12FDCD-B7FC-48DC-8ADE-177BA1FF5298.jpeg",
     status: "available",
     price: "€45,00",
-          size: "40 cm hoog × Ø 24 cm"
+          size: "40 cm hoog × Ø 24 cm",
+          category: "nieuw",
   },
   {
     name: "Blue Peacock",
     image: "EF7F3280-6847-4DA5-9C60-107EE7EDFE64.jpeg",
     status: "available",
     price: "€40,00",
-      size: "34 cm hoog × Ø 21 cm"
+      size: "34 cm hoog × Ø 21 cm",
+      category: "nieuw",
   },
   {
     name: "Mint Peacock",
     image: "662C84C8-D5E4-4F25-B096-53558DE90D50.jpeg",
     status: "available",
     price: "€40,00",
-      size: "33 cm hoog × Ø 25 cm"
+      size: "33 cm hoog × Ø 25 cm",
+      category: "nieuw",
   },
      {
     name: "Pink Leopard",
     image: "DC096568-50DB-41FB-8ECD-50F2D067AAD6.jpeg",
     status: "available",
     price: "€17,50",
-         size: "15 cm hoog × Ø 18 cm"
+         size: "15 cm hoog × Ø 18 cm",
+         category: "nieuw",
   },
   {
     name: "Golden Giraffe",
     image: "29B1C3DC-DB31-483E-B02D-5E54059016B4.jpeg",
     status: "available",
     price: "€15,00",
-      size: "13 cm hoog × Ø 14 cm"
+      size: "13 cm hoog × Ø 14 cm",
+      category: "nieuw",
   },
   {
     name: "Blue Cow",
     image: "036F5C42-7427-4302-9F9C-46C3FCF0E206.jpeg",
     status: "available",
     price: "€15,00",
-      size: "13 cm hoog × Ø 14 cm"
+      size: "13 cm hoog × Ø 14 cm",
+      category: "nieuw",
   },
   {
     name: "Golden Tiger",
     image: "848FF973-BFE2-4382-BDB3-947B43DB2B66.jpeg",
     status: "available",
     price: "€17,50",
-      size: "16 cm hoog × Ø 13 cm"
+      size: "16 cm hoog × Ø 13 cm",
+      category: "nieuw",
   },
   {
     name: "Black Panther",
     image: "4ED008FE-8D99-4BB8-A022-7192D95593D0.jpeg",
     status: "available",
     price: "€15,00",
-      size: "17 cm hoog × Ø 11 cm"
+      size: "17 cm hoog × Ø 11 cm",
+      category: "nieuw",
   },
   {
     name: "Roze Engeldroom",
     image: "57F40836-972B-483B-82A8-AAA1FFB4AE77.jpeg",
     status: "available",
     price: "€17,50",
-      size: "21 cm hoog × Ø 16 cm",
-      category: "beschikbaar",
+      size: "21 cm hoog × Ø 16 cm"
   },
   {
     name: "Golden Spirit",
@@ -469,277 +478,332 @@ const arrangements = [
 {
   name: "Andre Hazes",
   image: "CF307AEF-E558-4D1A-8627-5620C2901444.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Betty Boop",
   image: "A2A41468-14C0-4466-A314-8E4B9229496D.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Spring Meadow",
   image: "8114101A-857D-41EC-8342-EA83DB1ADB43.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Golden Boss",
   image: "591D21E0-1291-4CC4-AF01-61AACE883B3F.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Golden Butterfly Garden",
   image: "29088E15-7E1F-47D1-9FCF-2BB5AF65E55B.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Buddha Blossom",
   image: "60A96B54-359F-4A5D-AC12-E4C7BB35F4AD.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Wild Cub Blossom",
   image: "92848336-88AA-417F-B8C0-3E16C05FAFD0.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Happy Friends",
   image: "0D17E4DB-FA7A-4909-A952-78E06C297F8D.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
     {
     name: "Festive Red",
     image: "C0FF78B7-1240-458D-87B7-45C7893B95A3.jpeg",
-    status: "sold-out"
+    status: "sold-out",
+        category: "verkocht",
   },
 {
   name: "Christmas Elegance",
   image: "B98E31A1-D73C-4F20-905D-39A4D51E48A8.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Midnight Amethyst",
   image: "CB2B1DBC-C400-47E8-97F3-9D4BCC714A76.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Autumn Glow",
   image: "21EF61DD-1FE0-438F-863D-B474E55B6A26.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Autumn Friends",
   image: "B53ED7BE-7A36-4560-89E8-BC32D38F3676.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Buddha Serenity",
   image: "344A416B-E8E6-453A-8816-99B3118F75CB.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "System of a down",
   image: "281F24FC-984F-4AF9-BEBC-5D1489805AB6.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Safari Serenity",
   image: "9671E222-1043-4E27-8D77-F4FE6220F22D.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Tiger Blossom",
   image: "5DC6D0F8-ED09-4069-BE6D-3F17B89F25C9.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Royal Bloom",
   image: "Royal blom.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Pink Boss",
   image: "1CA6DA21-8A41-44EE-B942-978C1B8B87C8.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Peach Blossom",
   image: "08794F8F-41B4-47C1-BD0F-2EDD130BA97B.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Baddie Bloom",
   image: "CD8CAEE4-0A88-4606-B41C-7F70D9B8E87B.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Sakura Dream",
   image: "9FDC8FC3-6FAE-461D-A9DC-4A952768FE2D.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Safari Sunshine",
   image: "CDAB04F2-5CD5-415C-9C03-6B504A0FC0E8.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Sweet Kiss",
   image: "EA35D7F2-C79B-4510-8035-DC969A386A6F.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Steampunk Garden",
   image: "A66F9AF2-4DB1-49A5-B26E-6275E1AE942B.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Orchid Fantasy",
   image: "254DE367-D943-4F6D-8C5A-D249A07E79AF.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Buddha Butterfly Bliss",
   image: "A9670A4F-A59C-4C07-818A-151EADBB1F40.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Pastel Hydrangea Dream",
   image: "0AFC2D52-2A83-4966-A284-044CF300C075.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Golden Boho Muse",
   image: "E48A4483-EA44-4FB7-BD81-184FFD39BE7A.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Bunny Blossom",
   image: "3FE9EED8-A2A8-4232-880F-21C1660F8332.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "ADO - onze trots",
   image: "276E7A3E-827C-478C-92FA-A1EAD0221406.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Spring Bunny Garden",
   image: "61B8A7D0-D899-4CC0-8455-41810C9C3BAE.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Sunset Rider",
   image: "8138D381-B8C8-4078-A7EB-12696E7EEA2C.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Enchanted Forest",
   image: "D4FF9A12-EF43-4731-A477-D8C78746EE87.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Guitar Romance",
   image: "5C654EED-8BD8-4A59-A4C8-8C359C56CAF3.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Easter Bunny",
   image: "04F50E46-E7B5-4D7B-8D07-3FFEF8D304C5.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Easter Truck Bunny",
   image: "AE2E3352-E396-4281-B6B8-AE9FD1BC6E4E.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Gramps Morgan",
   image: "278E7E8E-BB40-4950-A5B6-4D31384AF3F7.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "UB40",
   image: "2911B43E-1510-4987-B78A-06A213E4C996.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Bob Marley",
   image: "88E6D3C8-DB87-453A-90C9-50120182B34C.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Neon Owl",
   image: "6ED4B700-88C1-4BC4-89A3-B079BF9F11D0.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Beatles Abbey Road",
   image: "DFE7C088-A237-4C98-99BC-C540738210A0.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Grappige zebra",
   image: "8248FBF1-6237-47D3-9EC8-2B40C029766F.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Kleurrijke pauw",
   image: "3D472D97-0866-4403-98E3-3BDCEA39314E.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "ADO Den Haag",
   image: "D450169A-BEB9-4834-A5CA-FE6380DABC86.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Elvis presley",
   image: "0C311DF8-5453-46C5-9B6B-8F7A255EAC0F.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Majestueuze leeuw",
   image: "6A389EF0-BA6C-4E80-B213-FD2131D46919.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Gangster glamour",
   image: "7921D363-C3F1-489A-8ADD-84253BDCDD85.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Elegante zebra",
   image: "B476C5F4-D6BE-40CB-B7A1-534ED949C72A.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Elegante krokodil",
   image: "A5A6B12B-909E-44DC-92F0-8407A3A0F2A1.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
   {
   name: "Butterfly Dreams",
   image: "90152F7B-52F2-4CD5-BC50-2641C3888F91.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+      category: "verkocht",
 },
 {
   name: "Tropical Paradise",
   image: "9FA66EC2-C61C-44E9-97C7-033A707742AD.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Billie Eilish",
   image: "6A128979-BD3B-43CF-99D5-27560303B61A.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Christmas Elegance",
   image: "B98E31A1-D73C-4F20-905D-39A4D51E48A8.jpeg",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 },
 {
   name: "Winter Wonderland",
   image: "EAC23549-0D9B-4896-9E55-B3A9CA53A1FB.png",
-  status: "sold-out"
+  status: "sold-out",
+    category: "verkocht",
 }
 ];
 const nieuwGrid = document.getElementById("nieuw-grid");
