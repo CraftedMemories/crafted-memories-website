@@ -509,23 +509,23 @@ const vaasNaam = params.get("naam");
 const homepageGegevens = {
   "Summer Bloom": {
     price: "€32,50",
-    size: "..."
+    size: "30 cm hoog × Ø 18 cm"
   },
   "Pink Butterfly": {
     price: "€22,50",
-    size: "..."
+    size: "25 cm hoog × Ø 14 cm"
   },
   "Wild Bloom": {
     price: "€32,50",
-    size: "..."
+    size: "30 cm hoog × Ø 18 cm"
   },
   "Lavender Dream": {
     price: "€22,50",
-    size: "..."
+    size: "25 cm hoog × Ø 15 cm"
   },
   "Blue Elegance": {
     price: "€32,50",
-    size: "..."
+    size: "30 cm hoog × Ø 18 cm"
   }
 };
 const arrangement = arrangements.find(item => item.name === vaasNaam);
