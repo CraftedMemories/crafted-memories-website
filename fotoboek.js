@@ -4,7 +4,8 @@ const arrangements = [
     image: "4442E87A-0247-4E8A-8902-3BAC61C6C6DF.jpeg",
     status: "available",
     price: "€30,00",
-        size: "23 cm hoog × Ø 20 cm"
+        size: "23 cm hoog × Ø 20 cm",
+        category: "nieuw",
   },
    {
     name: "Mediterranean Joy",
