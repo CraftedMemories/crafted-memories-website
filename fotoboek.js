@@ -810,7 +810,7 @@ arrangements.forEach((arrangement) => {
 
   if (arrangement.name === "Roze Engeldroom") {
     kaart.innerHTML = `
-      <a href="roze-engeldroom.html">
+      <a href="vaas.html?naam=${encodeURIComponent(arrangement.name)}">
         <img src="${arrangement.image}" alt="${arrangement.name}">
       </a>
       <h2>${arrangement.name}</h2>
