@@ -7,6 +7,12 @@ const arrangementDetails = {
     "IMG_8043.jpeg",
     "IMG_8044.jpeg"
   ],
+  "Roze Engeldroom": [
+  "IMG_0154.jpeg",
+  "IMG_0155.jpeg",
+  "IMG_0156.jpeg",
+  "IMG_0157.jpeg"
+],
 
   "Golden Spirit": [
     "IMG_7971.jpeg",
