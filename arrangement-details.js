@@ -352,6 +352,13 @@ const arrangementDetails = {
     "IMG_9879.jpeg"
   ],
   
+  "Rose Garden Elegance": [
+  "IMG_1203.jpeg",
+  "IMG_1204.jpeg",
+  "IMG_1205.jpeg",
+  "IMG_1206.jpeg"
+],
+  
   "Summer Bloom": [
   "IMG_6233.jpeg",
   "IMG_6234.jpeg",
