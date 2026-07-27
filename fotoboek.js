@@ -1,5 +1,5 @@
 const arrangements = [
-    {
+   {
     name: "Mediterranean Summer",
     image: "4442E87A-0247-4E8A-8902-3BAC61C6C6DF.jpeg",
     status: "available",
@@ -7,6 +7,14 @@ const arrangements = [
         size: "23 cm hoog × Ø 20 cm",
         category: "nieuw",
   },
+    {
+  name: "Ocean Treasures",
+  image: "19C50F5C-3BB7-4C92-8BA2-5550675D8CCA.jpeg",
+  status: "available",
+  price: "€27,50",
+  size: "22 cm hoog × Ø 25 cm",
+ category: "nieuw",
+},
    {
     name: "Mediterranean Joy",
     image: "710E94DE-8F59-44D9-BA0C-98CC2E577D07.jpeg",
