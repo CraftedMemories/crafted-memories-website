@@ -336,7 +336,14 @@ const arrangementDetails = {
     "IMG_0987.jpeg",
     "IMG_0988.jpeg",
     "IMG_0989.jpeg"
+    
   ],
+  "Ocean Treasures": [
+  "IMG_1189.jpeg",
+  "IMG_1190.jpeg",
+  "IMG_1191.jpeg",
+  "IMG_1192.jpeg"
+],
 
   "Mediterranean Joy": [
     "IMG_9876.jpeg",
@@ -344,6 +351,7 @@ const arrangementDetails = {
     "IMG_9878.jpeg",
     "IMG_9879.jpeg"
   ],
+  
   "Summer Bloom": [
   "IMG_6233.jpeg",
   "IMG_6234.jpeg",
