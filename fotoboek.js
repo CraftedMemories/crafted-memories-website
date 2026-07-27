@@ -23,6 +23,14 @@ const arrangements = [
        size: "22 cm hoog × Ø 25 cm",
        category: "nieuw",
   },
+   {
+  name: "Rose Garden Elegance",
+  image: "9B3B61E2-AC61-4CDB-8334-1EA002A933FD.png",
+  status: "available",
+  price: "€50,00",
+  size: "56 cm hoog × Ø 29 cm",
+      category: "nieuw",
+},
      {
     name: "Little Love",
     image: "D4677581-2B73-4B9B-A0F0-60625F8064BF.jpeg",
