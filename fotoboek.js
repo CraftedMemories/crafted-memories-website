@@ -10,10 +10,8 @@ const arrangements = [
     {
   name: "Ocean Treasures",
   image: "19C50F5C-3BB7-4C92-8BA2-5550675D8CCA.jpeg",
-  status: "available",
-  price: "€27,50",
-  size: "22 cm hoog × Ø 25 cm",
- category: "nieuw",
+  status: "sold-out",
+category: "verkocht",
 },
    {
     name: "Mediterranean Joy",
