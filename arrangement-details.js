@@ -523,7 +523,14 @@ const arrangementDetails = {
   "IMG_7649.jpeg",
   "IMG_7650.jpeg",
   "IMG_7651.jpeg"
-]
+],
+
+  "Mafia Royale": [
+  "IMG_2042.jpeg",
+  "IMG_2043.jpeg",
+  "IMG_2044.jpeg",
+  "IMG_2045.jpeg"
+],
 };
 const params = new URLSearchParams(window.location.search);
 const vaasNaam = params.get("naam");
