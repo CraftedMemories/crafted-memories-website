@@ -1,4 +1,12 @@
 const arrangements = [
+{
+  name: "Mafia Royale",
+  image: "31FB12F1-5037-4913-88D0-F16992F3C587.png",
+  status: "available",
+  price: "€27,50",
+  size:  "22 cm hoog × Ø 18 cm",
+  category: "nieuw"
+},
    {
     name: "Mediterranean Summer",
     image: "4442E87A-0247-4E8A-8902-3BAC61C6C6DF.jpeg",
