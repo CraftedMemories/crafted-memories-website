@@ -21,6 +21,12 @@ const arrangements = [
   status: "sold-out",
 category: "verkocht",
 },
+  {
+  name: "Golden Noir",
+  image: "73F70E24-07FB-485E-9841-7E43F5E19481.png",
+  status: "sold-out",
+  category: "verkocht",
+},
    {
     name: "Mediterranean Joy",
     image: "710E94DE-8F59-44D9-BA0C-98CC2E577D07.jpeg",
