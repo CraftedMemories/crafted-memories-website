@@ -15,17 +15,17 @@ const arrangements = [
         size: "23 cm hoog × Ø 20 cm",
         category: "nieuw",
   },
-    {
-  name: "Ocean Treasures",
-  image: "19C50F5C-3BB7-4C92-8BA2-5550675D8CCA.jpeg",
-  status: "sold-out",
-category: "verkocht",
-},
   {
   name: "Golden Noir",
   image: "73F70E24-07FB-485E-9841-7E43F5E19481.png",
   status: "sold-out",
   category: "verkocht",
+},
+    {
+  name: "Ocean Treasures",
+  image: "19C50F5C-3BB7-4C92-8BA2-5550675D8CCA.jpeg",
+  status: "sold-out",
+category: "verkocht",
 },
    {
     name: "Mediterranean Joy",
