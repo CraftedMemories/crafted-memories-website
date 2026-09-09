@@ -542,3 +542,27 @@ header img {
   color: white;
   border-color: #6f6255;
 }
+.seizoen-keuze {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 25px auto 35px;
+}
+
+.seizoen-keuze a {
+  display: inline-block;
+  background: transparent;
+  border: 1px solid #b8a58f;
+  color: #6f6255;
+  padding: 9px 18px;
+  border-radius: 20px;
+  font-family: inherit;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.seizoen-keuze a:hover {
+  background: #f1ebe4;
+}
