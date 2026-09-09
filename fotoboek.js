@@ -832,39 +832,111 @@ const nieuwGrid = document.getElementById("nieuw-grid");
 const beschikbaarGrid = document.getElementById("beschikbaar-grid");
 const verkochtGrid = document.getElementById("verkocht-grid");
 
-arrangements.forEach((arrangement) => {
-  const kaart = document.createElement("div");
-  kaart.className = "fotoboek-item";
+const seasons = {
+  spring: [
+    "Happy Easter",
+    "Spring Bunnies",
+    "Spring Bunny"
+  ],
 
-  if (arrangement.name === "Roze Engeldroom") {
-    kaart.innerHTML = `
-      <a href="vaas.html?naam=${encodeURIComponent(arrangement.name)}">
-        <img src="${arrangement.image}" alt="${arrangement.name}">
-      </a>
-      <h2>${arrangement.name}</h2>
-      <p>${arrangement.price}</p>
-    `;
-  } else if (arrangement.status === "sold-out") {
-    kaart.innerHTML = `
-      <img src="${arrangement.image}" alt="${arrangement.name}">
-      <h2>${arrangement.name}</h2>
-      <p>SOLD OUT</p>
-    `;
-  } else {
-    kaart.innerHTML = `
-      <a href="vaas.html?naam=${encodeURIComponent(arrangement.name)}">
-        <img src="${arrangement.image}" alt="${arrangement.name}">
-      </a>
-      <h2>${arrangement.name}</h2>
-      <p>${arrangement.price}</p>
-    `;
+  summer: [
+    "Mediterranean Summer",
+    "Mediterranean Joy",
+    "Tropical Toucan",
+    "Tropical Monkey",
+    "Tropische Papegaai",
+    "Tropical Blue"
+  ],
+
+  autumn: [
+    "Herfst Hooglander",
+    "Hello Fall",
+    "Happy Halloween"
+  ],
+
+  christmas: [
+    "Winter Magic",
+    "Gingerbread Christmas",
+    "Grinchmas",
+    "Winter Blossom",
+    "Santa Sparkle Express",
+    "Pink Winter Wishes",
+    "Christmas Forest Friends",
+    "Pink Christmas Butterfly",
+    "Christmas Reindeer & Penguin",
+    "Merry Christmas Santa",
+    "Blue Christmas Magic",
+    "Pink Christmas Mischief",
+    "Christmas Together",
+    "Winter Sisters"
+  ]
+};
+
+function getSeason(name) {
+  for (const season in seasons) {
+    if (seasons[season].includes(name)) {
+      return season;
+    }
   }
 
-  if (arrangement.category === "nieuw") {
-    nieuwGrid.appendChild(kaart);
-  } else if (arrangement.category === "verkocht") {
-    verkochtGrid.appendChild(kaart);
-  } else {
-    beschikbaarGrid.appendChild(kaart);
-  }
+  return null;
+}
+
+function renderFotoboek(selectedSeason = "all") {
+  nieuwGrid.innerHTML = "";
+  beschikbaarGrid.innerHTML = "";
+  verkochtGrid.innerHTML = "";
+
+  arrangements.forEach((arrangement) => {
+    const isSoldOut = arrangement.status === "sold-out";
+
+    if (
+      !isSoldOut &&
+      selectedSeason !== "all" &&
+      getSeason(arrangement.name) !== selectedSeason
+    ) {
+      return;
+    }
+
+    const kaart = document.createElement("div");
+    kaart.className = "fotoboek-item";
+
+    if (isSoldOut) {
+      kaart.innerHTML = `
+        <img src="${arrangement.image}" alt="${arrangement.name}">
+        <h2>${arrangement.name}</h2>
+        <p>SOLD OUT</p>
+      `;
+    } else {
+      kaart.innerHTML = `
+        <a href="vaas.html?naam=${encodeURIComponent(arrangement.name)}">
+          <img src="${arrangement.image}" alt="${arrangement.name}">
+        </a>
+        <h2>${arrangement.name}</h2>
+        <p>${arrangement.price}</p>
+      `;
+    }
+
+    if (arrangement.category === "nieuw") {
+      nieuwGrid.appendChild(kaart);
+    } else if (isSoldOut) {
+      verkochtGrid.appendChild(kaart);
+    } else {
+      beschikbaarGrid.appendChild(kaart);
+    }
+  });
+}
+
+renderFotoboek();
+
+const seasonButtons = document.querySelectorAll(".seizoen-filter button");
+
+seasonButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    seasonButtons.forEach((btn) => btn.classList.remove("active"));
+
+    button.classList.add("active");
+
+    renderFotoboek(button.dataset.season);
+  });
 });
