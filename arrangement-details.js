@@ -560,19 +560,7 @@ const arrangement = arrangements.find(item => item.name === vaasNaam);
 const fotos = arrangementDetails[vaasNaam];
 
 if (fotos) {
-  const homepageVazen = [
-  "Summer Bloom",
-  "Pink Butterfly",
-  "Wild Bloom",
-  "Lavender Dream",
-  "Blue Elegance"
-];
 
-if (homepageVazen.includes(vaasNaam)) {
-  const terugLink = document.getElementById("terug-link");
-  terugLink.href = "index.html";
-  terugLink.textContent = "← Terug naar de homepage";
-}
   document.getElementById("vaas-naam").textContent = vaasNaam;
   const gegevens = arrangement || homepageGegevens[vaasNaam];
 
