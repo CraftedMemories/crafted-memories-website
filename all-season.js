@@ -233,10 +233,6 @@ const allSeasonVerkocht = [
     image: "A66F9AF2-4DB1-49A5-B26E-6275E1AE942B.jpeg"
   },
   {
-    name: "Orchid Fantasy",
-    image: "254DE367-D943-4F6D-8C5A-D249A07E79AF.jpeg"
-  },
-  {
     name: "Buddha Butterfly Bliss",
     image: "A9670A4F-A59C-4C07-818A-151EADBB1F40.jpeg"
   },
