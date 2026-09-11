@@ -558,48 +558,14 @@ const homepageGegevens = {
 };
 const arrangement = arrangements.find(item => item.name === vaasNaam);
 const fotos = arrangementDetails[vaasNaam];
-const categorieLinks = {
-  "Summer Bloom": ["zomer.html", "← Terug naar Zomer"],
-  "Pink Butterfly": ["zomer.html", "← Terug naar Zomer"],
-  "Wild Bloom": ["zomer.html", "← Terug naar Zomer"],
-  "Lavender Dream": ["zomer.html", "← Terug naar Zomer"],
-  "Blue Elegance": ["zomer.html", "← Terug naar Zomer"],
-
-  "Love on the Road": ["voorjaar.html", "← Terug naar Voorjaar"],
-  "Love in Bloom": ["voorjaar.html", "← Terug naar Voorjaar"],
-  "Happy Easter": ["voorjaar.html", "← Terug naar Voorjaar"],
-  "Spring Bunnies": ["voorjaar.html", "← Terug naar Voorjaar"],
-  "Rosy Bunny": ["voorjaar.html", "← Terug naar Voorjaar"],
-  "Happy Hedgehog": ["voorjaar.html", "← Terug naar Voorjaar"],
-  "Spring Bunny": ["voorjaar.html", "← Terug naar Voorjaar"],
-
-  "Herfst Hooglander": ["herfst.html", "← Terug naar Herfst"],
-  "Hello Fall": ["herfst.html", "← Terug naar Herfst"],
-  "Happy Halloween": ["herfst.html", "← Terug naar Herfst"],
-
-  "Winter Magic": ["kerst.html", "← Terug naar Kerst"],
-  "Gingerbread Christmas": ["kerst.html", "← Terug naar Kerst"],
-  "Grinchmas": ["kerst.html", "← Terug naar Kerst"],
-  "Winter Blossom": ["kerst.html", "← Terug naar Kerst"],
-  "Santa Sparkle Express": ["kerst.html", "← Terug naar Kerst"],
-  "Pink Winter Wishes": ["kerst.html", "← Terug naar Kerst"],
-  "Christmas Forest Friends": ["kerst.html", "← Terug naar Kerst"],
-  "Pink Christmas Butterfly": ["kerst.html", "← Terug naar Kerst"],
-  "Christmas Reindeer & Penguin": ["kerst.html", "← Terug naar Kerst"],
-  "Merry Christmas Santa": ["kerst.html", "← Terug naar Kerst"],
-  "Blue Christmas Magic": ["kerst.html", "← Terug naar Kerst"],
-  "Pink Christmas Mischief": ["kerst.html", "← Terug naar Kerst"],
-  "Christmas Together": ["kerst.html", "← Terug naar Kerst"],
-  "Winter Sisters": ["kerst.html", "← Terug naar Kerst"]
-};
-
 const terugLink = document.getElementById("terug-link");
 
-if (terugLink && categorieLinks[vaasNaam]) {
-  terugLink.href = categorieLinks[vaasNaam][0];
-  terugLink.textContent = categorieLinks[vaasNaam][1];
+if (terugLink) {
+  terugLink.addEventListener("click", function(event) {
+    event.preventDefault();
+    history.back();
+  });
 }
-
 if (fotos) {
 
   document.getElementById("vaas-naam").textContent = vaasNaam;
