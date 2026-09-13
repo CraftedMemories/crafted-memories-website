@@ -1,28 +1,28 @@
 const herfstVazen = [
-  {
+{
   name: "Spooky Ghost",
-  image: "EEF199D5-58C5-41EE-AD8A-EC8DEB76D010.png",
-  price: "€12,50"
+  price: "€12,50",
+  image: "EEF199D5-58C5-41EE-AD8A-EC8DEB76D010.png"
 },
 {
   name: "Mickey & Friends",
-  image: "80C278A2-1756-4CD1-A0DC-47018190D95E.jpeg",
-  price: "€12,50"
+  price: "€12,50",
+  image: "C76C4983-5ECB-44AB-84AA-C78DAFF3CDAA.jpeg"
 },
 {
   name: "Happy Fall Stitch",
-  image: "423D40BB-F532-4913-A0C0-D84641A1513B.jpeg",
-  price: "€12,50"
+  price: "€12,50",
+  image: "E47FB805-FD40-4E89-AA24-AB75433A2840.jpeg"
 },
 {
   name: "Stitch Trick or Treat",
-  image: "3F91FBEF-13D4-488F-B729-547F3FE846A2.jpeg",
-  price: "€12,50"
+  price: "€12,50",
+  image: "B2086CC4-EE8A-45E0-AACE-3EF3597EE7D3.jpeg"
 },
 {
   name: "Pooh Halloween",
-  image: "2CEF5155-2059-47D4-AF6D-70A0F3516FC0.jpeg",
-  price: "€12,50"
+  price: "€12,50",
+  image: "D404ACDD-8C56-4B9C-804B-8E4794D3E74F.jpeg"
 },
   {
     name: "Herfst Hooglander",
