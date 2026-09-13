@@ -1,4 +1,23 @@
 const arrangementDetails = {
+    "Spooky Ghost": [
+    "IMG_3467.jpeg"
+  ],
+
+  "Mickey & Friends": [
+    "IMG_3489.jpeg"
+  ],
+
+  "Happy Fall Stitch": [
+    "IMG_3487.jpeg"
+  ],
+
+  "Stitch Trick or Treat": [
+    "IMG_3484.jpeg"
+  ],
+
+  "Pooh Halloween": [
+    "IMG_3483.jpeg"
+  ],
   "Little Love": [
     "IMG_8039.jpeg",
     "IMG_8040.jpeg",
