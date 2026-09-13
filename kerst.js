@@ -178,6 +178,14 @@ const kerstVazen = [
 
 const kerstVerkocht = [
   {
+  name: "Stitch Christmas",
+  image: "9EEA19CF-6DDC-409A-B049-3DBBF555687D.jpeg"
+},
+{
+  name: "Cocoa & Cheer",
+  image: "15BE0F96-CD44-47B3-996C-73750F556B8E.png"
+},
+  {
     name: "Christmas Elegance",
     image: "B98E31A1-D73C-4F20-905D-39A4D51E48A8.jpeg"
   },
