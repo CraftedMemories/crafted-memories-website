@@ -1,4 +1,34 @@
 const arrangements = [
+  {
+  name: "Spooky Ghost",
+  price: "€12,50",
+  size: "10 cm hoog × Ø 10 cm",
+  image: "EEF199D5-58C5-41EE-AD8A-EC8DEB76D010.png"
+},
+{
+  name: "Mickey & Friends",
+  price: "€12,50",
+  size: "10 cm hoog × Ø 10 cm",
+  image: "80C278A2-1756-4CD1-A0DC-47018190D95E.jpeg"
+},
+{
+  name: "Happy Fall Stitch",
+  price: "€12,50",
+  size: "10 cm hoog × Ø 10 cm",
+  image: "423D40BB-F532-4913-A0C0-D84641A1513B.jpeg"
+},
+{
+  name: "Stitch Trick or Treat",
+  price: "€12,50",
+  size: "10 cm hoog × Ø 10 cm",
+  image: "3F91FBEF-13D4-488F-B729-547F3FE846A2.jpeg"
+},
+{
+  name: "Pooh Halloween",
+  price: "€12,50",
+  size: "10 cm hoog × Ø 10 cm",
+  image: "2CEF5155-2059-47D4-AF6D-70A0F3516FC0.jpeg"
+},
 {
   name: "Mafia Royale",
   image: "31FB12F1-5037-4913-88D0-F16992F3C587.png",
