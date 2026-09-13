@@ -1,4 +1,87 @@
 const arrangementDetails = {
+      "Cozy Christmas Santa": [
+    "IMG_3479.jpeg"
+  ],
+
+  "Merry Gnome": [
+    "IMG_3478.jpeg"
+  ],
+
+  "Merry & Bright Santa": [
+    "IMG_3476.jpeg"
+  ],
+
+  "Christmas Little Santa": [
+    "IMG_3475.jpeg"
+  ],
+
+  "Christmas Friends": [
+    "IMG_3474.jpeg"
+  ],
+
+  "Santa’s Christmas Joy": [
+    "IMG_3473.jpeg"
+  ],
+
+  "Christmas Deer": [
+    "IMG_3472.jpeg"
+  ],
+
+  "Christmas Teddy": [
+    "IMG_3471.jpeg"
+  ],
+
+  "Santa’s Winter Magic": [
+    "IMG_3469.jpeg"
+  ],
+
+  "Leopard Christmas": [
+    "IMG_3468.jpeg"
+  ],
+
+  "Blue Christmas Santa": [
+    "IMG_3466.jpeg"
+  ],
+
+  "Pink Christmas Friends": [
+    "IMG_3465.jpeg"
+  ],
+
+  "Christmas Gnome": [
+    "IMG_3464.jpeg"
+  ],
+
+  "Pink Santa & Snowman": [
+    "IMG_3463.jpeg"
+  ],
+
+  "Winking Santa": [
+    "IMG_3490.jpeg"
+  ],
+
+  "Santa’s Christmas Train": [
+    "IMG_3488.jpeg"
+  ],
+
+  "Santa’s Sleigh Ride": [
+    "IMG_3485.jpeg"
+  ],
+
+  "Green Christmas Friends": [
+    "IMG_3482.jpeg"
+  ],
+
+  "Gingerbread Christmas": [
+    "IMG_3481.jpeg"
+  ],
+
+  "Cozy Christmas Reindeer": [
+    "IMG_3480.jpeg"
+  ],
+
+  "Mickey & Minnie Christmas": [
+    "IMG_3477.jpeg"
+  ],
     "Spooky Ghost": [
     "IMG_3467.jpeg"
   ],
