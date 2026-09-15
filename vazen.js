@@ -224,6 +224,14 @@ category: "verkocht",
           category: "nieuw",
   },
   {
+  name: "Purple Peacock",
+  image: "BF92422E-5B1E-4E7E-BB48-E809F9364424.jpeg",
+  status: "available",
+  price: "€40,00",
+  size: "35 cm hoog × Ø 19 cm",
+  category: "all-season"
+},
+  {
     name: "Blue Peacock",
     image: "EF7F3280-6847-4DA5-9C60-107EE7EDFE64.jpeg",
     status: "available",
