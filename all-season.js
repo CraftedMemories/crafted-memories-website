@@ -1,5 +1,10 @@
 const allSeasonVazen = [
   {
+  name: "Queen’s Garden Duo",
+  image: "2437B71D-784A-40BE-9A43-BD22A47B7E37.jpeg",
+  price: "€32,50"
+},
+  {
     name: "Rose Garden Elegance",
     image: "9B3B61E2-AC61-4CDB-8334-1EA002A933FD.png",
     price: "€50,00"
