@@ -1,8 +1,8 @@
 const kerstVazen = [
   {
-  name: "Cozy Christmas Santa",
+  name: "Mickey & Minnie Christmas",
   price: "€12,50",
-  image: "E79E17FC-B794-4379-8AD0-D01E4B9F0FBD.png"
+  image: "5F478FEE-031E-4EB3-B7A3-3A7C2C9D2D47.jpeg"
 },
 {
   name: "Merry Gnome",
@@ -99,10 +99,10 @@ const kerstVazen = [
   price: "€12,50",
   image: "FE7B7F1E-3036-4FF3-9D3D-C4BB6972CAB1.png"
 },
-{
-  name: "Mickey & Minnie Christmas",
+   {
+  name: "Cozy Christmas Santa",
   price: "€12,50",
-  image: "5F478FEE-031E-4EB3-B7A3-3A7C2C9D2D47.jpeg"
+  image: "E79E17FC-B794-4379-8AD0-D01E4B9F0FBD.png"
 },
   {
     name: "Winter Magic",
