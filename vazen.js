@@ -1,5 +1,13 @@
 const arrangements = [
   {
+  name: "Queen’s Garden Duo",
+  image: "2437B71D-784A-40BE-9A43-BD22A47B7E37.jpeg",
+  status: "available",
+  price: "€32,50",
+  size: "Set: 20 cm hoog × Ø 17 cm | 17 cm hoog × Ø 14 cm",
+  category: "all-season"
+},
+  {
   name: "Cozy Christmas Santa",
   price: "€12,50",
   size: "10 cm hoog × Ø 10 cm",
