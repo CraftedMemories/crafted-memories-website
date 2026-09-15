@@ -1,4 +1,10 @@
 const arrangementDetails = {
+      "Queen’s Garden Duo": [
+  "IMG_2615.jpeg",
+  "IMG_2616.jpeg",
+  "IMG_2617.jpeg",
+  "IMG_2618.jpeg"
+],
       "Cozy Christmas Santa": [
     "IMG_3479.jpeg"
   ],
