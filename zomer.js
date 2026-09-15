@@ -21,7 +21,7 @@ const zomerVazen = [
   },
   {
     name: "Blue Elegance",
-    image: "02CBE8C5-856F-49AA-998C-B98E0DFB95AE.png",
+    image: "3C1002C9-B173-4864-BB8A-C8337A23DC9D.jpeg",
     price: "€32,50"
   },
   {
