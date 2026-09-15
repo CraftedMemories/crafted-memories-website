@@ -424,6 +424,13 @@ const arrangementDetails = {
     "Peacock4.jpeg"
   ],
 
+      "Purple Peacock": [
+  "IMG_2611.jpeg",
+  "IMG_2612.jpeg",
+  "IMG_2613.jpeg",
+  "IMG_2614.jpeg"
+],
+
   "Blue Peacock": [
     "IMG_0333.jpeg",
     "IMG_0334.jpeg",
