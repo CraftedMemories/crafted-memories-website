@@ -1,4 +1,24 @@
 const herfstVazen = [
+  {
+  name: "Autumn Friends",
+  image: "0181E839-8C65-4E31-9904-3CE0354F313F.png",
+  price: "€22,50"
+},
+{
+  name: "Autumn Harvest",
+  image: "C44A6344-BC0C-4CCC-BD0A-806FA7A4EC71.png",
+  price: "€20,00"
+},
+{
+  name: "Autumn Woodland",
+  image: "4A056E90-B5FC-4ED2-858F-F61A1FF1FDFA.png",
+  price: "€17,50"
+},
+{
+  name: "Autumn Express",
+  image: "6BC1487B-B065-48F2-B1AA-D5F1B8A20E63.png",
+  price: "€15,00"
+},
 {
   name: "Spooky Ghost",
   price: "€12,50",
