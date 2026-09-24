@@ -1,5 +1,37 @@
 const arrangements = [
   {
+  name: "Autumn Friends",
+  image: "0181E839-8C65-4E31-9904-3CE0354F313F.png",
+  status: "available",
+  price: "€22,50",
+  size: "25 cm hoog × Ø 19 cm",
+  category: "herfst"
+},
+{
+  name: "Autumn Harvest",
+  image: "C44A6344-BC0C-4CCC-BD0A-806FA7A4EC71.png",
+  status: "available",
+  price: "€20,00",
+  size: "20 cm hoog × Ø 19 cm",
+  category: "herfst"
+},
+{
+  name: "Autumn Woodland",
+  image: "4A056E90-B5FC-4ED2-858F-F61A1FF1FDFA.png",
+  status: "available",
+  price: "€17,50",
+  size: "21 cm hoog × Ø 16 cm",
+  category: "herfst"
+},
+{
+  name: "Autumn Express",
+  image: "6BC1487B-B065-48F2-B1AA-D5F1B8A20E63.png",
+  status: "available",
+  price: "€15,00",
+  size: "15 cm hoog × Ø 15 cm",
+  category: "herfst"
+},
+  {
   name: "Queen’s Garden Duo",
   image: "2437B71D-784A-40BE-9A43-BD22A47B7E37.jpeg",
   status: "available",
