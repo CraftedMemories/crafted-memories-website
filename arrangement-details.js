@@ -1,4 +1,28 @@
 const arrangementDetails = {
+      "Autumn Friends": [
+  "IMG_2850.jpeg",
+  "IMG_2851.jpeg",
+  "IMG_2852.jpeg",
+  "IMG_2854.jpeg"
+],
+"Autumn Harvest": [
+  "IMG_2833.jpeg",
+  "IMG_2834.jpeg",
+  "IMG_2835.jpeg",
+  "IMG_2836.jpeg"
+],
+"Autumn Woodland": [
+  "IMG_2843.jpeg",
+  "IMG_2839.jpeg",
+  "IMG_2840.jpeg",
+  "IMG_2841.jpeg"
+],
+"Autumn Express": [
+  "IMG_2855.jpeg",
+  "IMG_2856.jpeg",
+  "IMG_2857.jpeg",
+  "IMG_2858.jpeg"
+],
       "Queen’s Garden Duo": [
   "IMG_2615.jpeg",
   "IMG_2616.jpeg",
