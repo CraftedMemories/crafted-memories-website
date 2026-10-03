@@ -84,8 +84,7 @@ const allSeasonVazen = [
     image: "CC9B7A34-7C44-48B6-AF4B-1F407263963D.jpeg",
     price: "€15,00"
   },
-  
-  
+  {
     name: "Pirate Adventure",
     image: "F5DE1B63-8C52-4116-82D5-3D9F41937333.jpeg",
     price: "€15,00"
@@ -123,11 +122,6 @@ const allSeasonVazen = [
   {
     name: "Blue Lion",
     image: "84FCDBD3-311E-4E44-981B-78764BBC6776.jpeg",
-    price: "€30,00"
-  },
-  {
-    name: "Golden Lady",
-    image: "B9BEB524-2005-4CE4-9A93-96E87178DC9C.jpeg",
     price: "€30,00"
   },
   {
@@ -180,6 +174,11 @@ const allSeasonVerkocht = [
   {
     name: "Blue Blossom",
     image: "460CA9E7-F4CF-480D-95D3-08B730E9B6D0.jpeg",
+  },
+  {
+    name: "Golden Lady",
+    image: "B9BEB524-2005-4CE4-9A93-96E87178DC9C.jpeg",
+    price: "€30,00"
   },
   {
     name: "Bohemian Bloom",
