@@ -84,12 +84,8 @@ const allSeasonVazen = [
     image: "CC9B7A34-7C44-48B6-AF4B-1F407263963D.jpeg",
     price: "€15,00"
   },
-  {
-    name: "Blue Blossom",
-    image: "460CA9E7-F4CF-480D-95D3-08B730E9B6D0.jpeg",
-    price: "€17,50"
-  },
-  {
+  
+  
     name: "Pirate Adventure",
     image: "F5DE1B63-8C52-4116-82D5-3D9F41937333.jpeg",
     price: "€15,00"
@@ -180,6 +176,10 @@ const allSeasonVerkocht = [
   {
     name: "Rose Garden Elegance",
     image: "9B3B61E2-AC61-4CDB-8334-1EA002A933FD.png",
+  },
+  {
+    name: "Blue Blossom",
+    image: "460CA9E7-F4CF-480D-95D3-08B730E9B6D0.jpeg",
   },
   {
     name: "Bohemian Bloom",
