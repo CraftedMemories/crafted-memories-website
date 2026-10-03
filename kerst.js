@@ -1,9 +1,4 @@
 const kerstVazen = [
-  {
-  name: "Mickey & Minnie Christmas",
-  price: "€12,50",
-  image: "5F478FEE-031E-4EB3-B7A3-3A7C2C9D2D47.jpeg"
-},
 {
   name: "Merry Gnome",
   price: "€12,50",
@@ -177,6 +172,10 @@ const kerstVazen = [
 ];
 
 const kerstVerkocht = [
+    {
+  name: "Mickey & Minnie Christmas",
+  image: "5F478FEE-031E-4EB3-B7A3-3A7C2C9D2D47.jpeg"
+},
   {
   name: "Stitch Christmas",
   image: "9EEA19CF-6DDC-409A-B049-3DBBF555687D.jpeg"
