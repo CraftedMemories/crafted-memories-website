@@ -32,7 +32,6 @@ const zomerVazen = [
   {
     name: "Lavender Dream",
     image: "1BDEA3D2-1FD0-4EC7-913D-7C52D6F71D23.jpeg",
-    price: "€22,50"
   },
   {
     name: "Lemonade Sunshine",
