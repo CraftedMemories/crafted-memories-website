@@ -1,10 +1,5 @@
 const fanFavoritesVazen = [
   {
-    name: "Mafia Royale",
-    image: "31FB12F1-5037-4913-88D0-F16992F3C587.png",
-    price: "€27,50"
-  },
-  {
     name: "Amy",
     image: "A383C0F9-3424-445E-A973-BFA6EA468EBE.jpeg",
     price: "€17,50"
@@ -47,6 +42,11 @@ const fanFavoritesVazen = [
 ];
 
 const fanFavoritesVerkocht = [
+   {
+    name: "Mafia Royale",
+    image: "31FB12F1-5037-4913-88D0-F16992F3C587.png",
+    price: "€27,50"
+  },
   {
     name: "Andre Hazes",
     image: "CF307AEF-E558-4D1A-8627-5620C2901444.jpeg"
