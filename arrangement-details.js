@@ -108,18 +108,12 @@ const arrangementDetails = {
   "Cozy Christmas Reindeer": [
     "IMG_3480.jpeg"
   ],
-
-  "Mickey & Minnie Christmas": [
-    "IMG_3477.jpeg"
-  ],
     "Spooky Ghost": [
     "IMG_3467.jpeg"
   ],
-
-  "Mickey & Friends": [
-    "IMG_3489.jpeg"
-  ],
-
+ "Mickey & Friends": [
+"IMG_3489.jpeg"
+],
   "Happy Fall Stitch": [
     "IMG_3487.jpeg"
   ],
@@ -192,13 +186,6 @@ const arrangementDetails = {
     "IMG_6383.jpeg",
     "IMG_6384.jpeg",
     "IMG_6385.jpeg"
-  ],
-
-  "Blue Blossom": [
-    "IMG_6378.jpeg",
-    "IMG_6379.jpeg",
-    "IMG_6380.jpeg",
-    "IMG_6381.jpeg"
   ],
 
   "Pirate Adventure": [
@@ -293,14 +280,7 @@ const arrangementDetails = {
     "IMG_6210.jpeg",
     "IMG_6211.jpeg",
     "IMG_6212.jpeg"
-  ],
-
-  "Golden Lady": [
-    "IMG_6204.jpeg",
-    "IMG_6205.jpeg",
-    "IMG_6206.jpeg",
-    "IMG_6207.jpeg"
-  ],
+],
 
   "Pink Queen": [
     "IMG_6199.jpeg",
@@ -313,13 +293,6 @@ const arrangementDetails = {
     "IMG_6193.jpeg",
     "IMG_6194.jpeg",
     "IMG_6195.jpeg"
-  ],
-
-  "Sweet Donuts": [
-    "IMG_6179.jpeg",
-    "IMG_6180.jpeg",
-    "IMG_6181.jpeg",
-    "IMG_6182.jpeg"
   ],
 
   "Peaky Blinders": [
@@ -382,13 +355,6 @@ const arrangementDetails = {
     "IMG_6075.jpeg",
     "IMG_6076.jpeg",
     "IMG_6077.jpeg"
-  ],
-
-  "Festive Red": [
-    "IMG_6345.jpeg",
-    "IMG_6346.jpeg",
-    "IMG_6343.jpeg",
-    "IMG_6344.jpeg"
   ],
 
   "Hello Fall": [
@@ -475,28 +441,14 @@ const arrangementDetails = {
     "IMG_0987.jpeg",
     "IMG_0988.jpeg",
     "IMG_0989.jpeg"
-    
   ],
-  "Ocean Treasures": [
-  "IMG_1189.jpeg",
-  "IMG_1190.jpeg",
-  "IMG_1191.jpeg",
-  "IMG_1192.jpeg"
-],
-
+ 
   "Mediterranean Joy": [
     "IMG_9876.jpeg",
     "IMG_9877.jpeg",
     "IMG_9878.jpeg",
     "IMG_9879.jpeg"
   ],
-  
-  "Rose Garden Elegance": [
-  "IMG_1203.jpeg",
-  "IMG_1204.jpeg",
-  "IMG_1205.jpeg",
-  "IMG_1206.jpeg"
-],
   
   "Summer Bloom": [
   "IMG_6233.jpeg",
@@ -518,14 +470,6 @@ const arrangementDetails = {
   "IMG_6223.jpeg",
   "IMG_6224.jpeg"
 ],
-
-"Lavender Dream": [
-  "IMG_8288.jpeg",
-  "IMG_8289.jpeg",
-  "IMG_8290.jpeg",
-  "IMG_8291.jpeg"
-],
-
 "Blue Elegance": [
   "IMG_6228.jpeg",
   "IMG_6229.jpeg",
@@ -662,13 +606,6 @@ const arrangementDetails = {
   "IMG_7649.jpeg",
   "IMG_7650.jpeg",
   "IMG_7651.jpeg"
-],
-
-  "Mafia Royale": [
-  "IMG_2042.jpeg",
-  "IMG_2043.jpeg",
-  "IMG_2044.jpeg",
-  "IMG_2045.jpeg"
 ],
 };
 const params = new URLSearchParams(window.location.search);
