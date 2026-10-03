@@ -45,7 +45,6 @@ const fanFavoritesVerkocht = [
    {
     name: "Mafia Royale",
     image: "31FB12F1-5037-4913-88D0-F16992F3C587.png",
-    price: "€27,50"
   },
   {
     name: "Andre Hazes",
