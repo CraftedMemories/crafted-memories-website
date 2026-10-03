@@ -30,10 +30,6 @@ const zomerVazen = [
     price: "€22,50"
   },
   {
-    name: "Lavender Dream",
-    image: "1BDEA3D2-1FD0-4EC7-913D-7C52D6F71D23.jpeg",
-  },
-  {
     name: "Lemonade Sunshine",
     image: "859BB12A-E05E-459A-8221-6F5D8F6C60BA.jpeg",
     price: "€22,50"
@@ -41,6 +37,10 @@ const zomerVazen = [
 ];
 
 const zomerVerkocht = [
+   {
+    name: "Lavender Dream",
+    image: "1BDEA3D2-1FD0-4EC7-913D-7C52D6F71D23.jpeg",
+  },
   {
     name: "Ocean Treasures",
     image: "19C50F5C-3BB7-4C92-8BA2-5550675D8CCA.jpeg"
