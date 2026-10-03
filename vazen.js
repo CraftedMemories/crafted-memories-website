@@ -161,6 +161,7 @@ const arrangements = [
 },
 {
   name: "Mickey & Minnie Christmas",
+  status: "sold-out",
   price: "€12,50",
   size: "10 cm hoog × Ø 10 cm",
   image: "5F478FEE-031E-4EB3-B7A3-3A7C2C9D2D47.jpeg"
@@ -198,10 +199,9 @@ const arrangements = [
 {
   name: "Mafia Royale",
   image: "31FB12F1-5037-4913-88D0-F16992F3C587.png",
-  status: "available",
+  status: "sold-out",
   price: "€27,50",
   size:  "22 cm hoog × Ø 18 cm",
-  category: "nieuw"
 },
    {
     name: "Mediterranean Summer",
@@ -234,10 +234,9 @@ category: "verkocht",
    {
   name: "Rose Garden Elegance",
   image: "9B3B61E2-AC61-4CDB-8334-1EA002A933FD.png",
-  status: "available",
+  status: "sold-out",
   price: "€50,00",
   size: "56 cm hoog × Ø 29 cm",
-      category: "nieuw",
 },
      {
     name: "Little Love",
@@ -378,7 +377,7 @@ category: "verkocht",
   {
     name: "Blue Blossom",
     image: "460CA9E7-F4CF-480D-95D3-08B730E9B6D0.jpeg",
-    status: "available",
+    status: "sold-out",
     price: "€17,50",
       size: "20 cm hoog × Ø 13 cm"
   },
@@ -483,7 +482,7 @@ category: "verkocht",
   {
     name: "Golden Lady",
     image: "B9BEB524-2005-4CE4-9A93-96E87178DC9C.jpeg",
-    status: "available",
+    status: "sold-out",
     price: "€30,00",
       size: "30 cm hoog × Ø 18 cm"
   },
@@ -504,7 +503,7 @@ category: "verkocht",
   {
     name: "Sweet Donuts",
     image: "66C74DAD-9F39-491D-A794-E37A1E078764.jpeg",
-    status: "available",
+    status: "sold-out",
     price: "€20,00",
       size: "19 cm hoog × Ø 15 cm"
   },
