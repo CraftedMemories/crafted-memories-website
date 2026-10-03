@@ -130,11 +130,6 @@ const allSeasonVazen = [
     price: "€30,00"
   },
   {
-    name: "Sweet Donuts",
-    image: "66C74DAD-9F39-491D-A794-E37A1E078764.jpeg",
-    price: "€20,00"
-  },
-  {
     name: "Vrolijke Giraffe",
     image: "5423B09F-166A-4CC8-8433-E43307641A10.jpeg",
     price: "€17,50"
@@ -178,7 +173,10 @@ const allSeasonVerkocht = [
   {
     name: "Golden Lady",
     image: "B9BEB524-2005-4CE4-9A93-96E87178DC9C.jpeg",
-    price: "€30,00"
+  },
+   {
+    name: "Sweet Donuts",
+    image: "66C74DAD-9F39-491D-A794-E37A1E078764.jpeg",
   },
   {
     name: "Bohemian Bloom",
