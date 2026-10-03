@@ -5,11 +5,6 @@ const allSeasonVazen = [
   price: "€32,50"
 },
   {
-    name: "Rose Garden Elegance",
-    image: "9B3B61E2-AC61-4CDB-8334-1EA002A933FD.png",
-    price: "€50,00"
-  },
-  {
     name: "Little Love",
     image: "D4677581-2B73-4B9B-A0F0-60625F8064BF.jpeg",
     price: "€40,00"
@@ -182,6 +177,10 @@ const allSeasonVazen = [
 ];
 
 const allSeasonVerkocht = [
+  {
+    name: "Rose Garden Elegance",
+    image: "9B3B61E2-AC61-4CDB-8334-1EA002A933FD.png",
+  },
   {
     name: "Bohemian Bloom",
     image: "83E65058-13F1-4FFC-A1A5-9F2539CB7F43.jpeg"
