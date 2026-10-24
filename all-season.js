@@ -158,6 +158,10 @@ const allSeasonVazen = [
 
 const allSeasonVerkocht = [
   {
+  name: "Blauw Porselein",
+  image: "80973A8B-E8C1-4E6E-8BE6-E89271D095E2.jpeg"
+}
+  {
     name: "Rose Garden Elegance",
     image: "9B3B61E2-AC61-4CDB-8334-1EA002A933FD.png",
   },
