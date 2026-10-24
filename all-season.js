@@ -140,11 +140,6 @@ const allSeasonVazen = [
     price: "€27,50"
   },
   {
-    name: "Blauw Porselein",
-    image: "80973A8B-E8C1-4E6E-8BE6-E89271D095E2.jpeg",
-    price: "€27,50"
-  },
-  {
     name: "Tropische Papegaai",
     image: "4AC7D2DF-E16E-4489-9359-DF0E3EA207FD.jpeg",
     price: "€20,00"
