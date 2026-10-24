@@ -538,7 +538,7 @@ category: "verkocht",
   {
     name: "Blauw Porselein",
     image: "80973A8B-E8C1-4E6E-8BE6-E89271D095E2.jpeg",
-    status: "available",
+    status: "sold-out",
     price: "€27,50",
       size: "31 cm hoog × Ø 24 cm"
   },
