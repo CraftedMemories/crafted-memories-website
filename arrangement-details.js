@@ -322,12 +322,6 @@ const arrangementDetails = {
     "IMG_6148.jpeg"
   ],
 
-  "Blauw Porselein": [
-    "IMG_6140.jpeg",
-    "IMG_6141.jpeg",
-    "IMG_6142.jpeg"
-  ],
-
   "Tropische Papegaai": [
     "IMG_6106.jpeg",
     "IMG_6107.jpeg",
