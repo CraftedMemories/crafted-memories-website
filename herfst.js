@@ -71,7 +71,7 @@ const herfstVerkocht = [
     image: "21EF61DD-1FE0-438F-863D-B474E55B6A26.jpeg"
   },
   {
-    name: "Autumn Friends",
+    name: "Autumn Woodland Tales",
     image: "B53ED7BE-7A36-4560-89E8-BC32D38F3676.jpeg"
   }
 ];
