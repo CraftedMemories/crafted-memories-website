@@ -105,7 +105,7 @@ const kerstVazen = [
     price: "€20,00"
   },
   {
-    name: "Gingerbread Christmas",
+    name: "Gingerbread Christmas Tree",
     image: "C543CA1A-D6FC-4E7D-A5B2-D0F548281013.jpeg",
     price: "€20,00"
   },
