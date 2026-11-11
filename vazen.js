@@ -592,7 +592,7 @@ category: "verkocht",
       size: "21 cm hoog × Ø 19 cm"
 },
 {
-  name: "Gingerbread Christmas",
+  name: "Gingerbread Christmas Tree",
   image: "C543CA1A-D6FC-4E7D-A5B2-D0F548281013.jpeg",
   price: "€20,00",
     size: "21 cm hoog × Ø 17 cm"
@@ -773,7 +773,7 @@ category: "verkocht",
     category: "verkocht",
 },
 {
-  name: "Autumn Friends",
+  name: "Autumn Woodland Tales",
   image: "B53ED7BE-7A36-4560-89E8-BC32D38F3676.jpeg",
   status: "sold-out",
     category: "verkocht",
