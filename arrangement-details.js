@@ -477,7 +477,7 @@ const arrangementDetails = {
   "IMG_0205.jpeg"
 ],
 
-"Gingerbread Christmas": [
+"Gingerbread Christmas Tree": [
   "IMG_0197.jpeg",
   "IMG_0198.jpeg",
   "IMG_0199.jpeg",
